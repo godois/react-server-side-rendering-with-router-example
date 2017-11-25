@@ -1,4 +1,4 @@
-# SSR with React Reoute
+# SSR with React Route 4
 
 **:warning: it's a proof of concept project yet
 
