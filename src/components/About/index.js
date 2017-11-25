@@ -11,14 +11,24 @@ class About extends Component {
   static defaultProps = {}
   state = {}
 
+  number = 0;
+
+  constructor(props) {
+    super(props);
+    this.randomNumber = Math.random();
+  }
+
   render() {
     const { className, ...props } = this.props;
     return (
       <div className={classnames('About', className)} {...props}>
         <h1>
-          About
+          <div id="teste1">
+          About {this.randomNumber}
           <img src={logo} className="App-logo" alt="logo" />
           Params: {this.props.location.search}
+          </div>
+          <div></div>
         </h1>
       </div>
     );
