@@ -23,12 +23,15 @@ class App extends Component {
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
         <p>Testando as rotas</p>
-        <p>About 
+        <p>Go to about with  
           <Link
                 to="/about">
-                go to about
+                client side 
               </Link>
         </p>
+        <p>Go to about with  
+         <a href="/about"> server side</a>
+        </p>        
       </div>
     );
   }
