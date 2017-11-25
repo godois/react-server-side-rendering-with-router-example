@@ -1,4 +1,4 @@
-# SSR with React Route 4
+# SSR with React Route 2.6
 
 **:warning: it's a proof of concept project yet
 
