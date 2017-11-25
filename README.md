@@ -1,6 +1,26 @@
 # SSR with React Reoute
 
-**:warning: 
+**:warning: it's a proof of concept project yet
+
+## Run
+
+Install node packages
+
+```shell
+$ npm install
+```
+
+Build a package
+
+```shell
+$ npm run build 
+```
+
+Run SSR application
+
+```shell
+$ npm run server 
+```
 
 ## Samples
 
